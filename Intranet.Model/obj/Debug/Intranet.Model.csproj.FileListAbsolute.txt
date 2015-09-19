@@ -1,0 +1,4 @@
+C:\Users\Guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Model\bin\Debug\Intranet.Model.dll
+C:\Users\Guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Model\bin\Debug\Intranet.Model.pdb
+C:\Users\Guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Model\obj\Debug\Intranet.Model.dll
+C:\Users\Guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Model\obj\Debug\Intranet.Model.pdb

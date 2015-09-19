@@ -1,0 +1,12 @@
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\Intranet.Repository.dll.config
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\Intranet.Repository.dll
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\Intranet.Repository.pdb
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\EntityFramework.dll
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\Intranet.Model.dll
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\Intranet.Model.pdb
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\EntityFramework.xml
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\obj\Debug\Intranet.Repository.csprojResolveAssemblyReference.cache
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\obj\Debug\Intranet.Repository.dll
+c:\users\guilherme\documents\visual studio 2013\Projects\Intranet\Intranet.Repository\obj\Debug\Intranet.Repository.pdb

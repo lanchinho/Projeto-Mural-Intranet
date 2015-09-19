@@ -1,0 +1,58 @@
+﻿@model Intranet.Presentation.Models.IndexNoticiasViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataPublicacao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Departamento)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.NoticiaList)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataPostagem)
+            </td>
+            <td>
+                @if (item.DepartamentoList.Count == 1)
+                {
+                    @Html.DisplayFor(modelItem => item.DepartamentoList.FirstOrDefault().Nome)
+                }
+                else
+                {
+                    for (int i = 0; i < item.DepartamentoList.Count; i++)
+                    {
+                       <div>@Html.DisplayFor(modelItem => item.DepartamentoList.ElementAt(i).Nome)</div> 
+                    }
+                }
+            </td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>*@
+        </tr>
+    }
+
+</table>
+
+<p>
+    <a class="btn btn-primary" href="/Noticia/Create">Postar Notícia</a>
+</p>
